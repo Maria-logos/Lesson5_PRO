@@ -20,7 +20,7 @@ public class Main {
                 Constants.CURRENCY + " " + baseCost + ".";
         String deliveryOutput = product + "\nCost is " +
                 Constants.CURRENCY + " " + deliveryCost + ".";
-        // Виводимо результат
+
         getOutput(baseOutput);
         getOutput(deliveryOutput);
     }
